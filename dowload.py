@@ -1,7 +1,8 @@
 import urllib.request
 import urllib.error
 
-for i in range(183, 1, -1):
+latest_podcast_number=183
+for i in range(latest_podcast_number, 1, -1):
     path="path/to/download"
     try:
         if i > 173:
